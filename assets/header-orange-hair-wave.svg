@@ -1,24 +1,38 @@
 <svg width="1600" height="300" viewBox="0 0 1600 300" xmlns="http://www.w3.org/2000/svg">
 <defs>
-  <linearGradient id="ocean" x1="0" y1="0" x2="1600" y2="300">
-    <stop stop-color="#0891B2"/><stop offset=".48" stop-color="#2563EB"/><stop offset="1" stop-color="#6D28D9"/>
+  <linearGradient id="gradient" x1="0" y1="0" x2="1600" y2="300">
+    <stop stop-color="#F97316"><animate attributeName="stop-color" values="#F97316;#FB7185;#F97316" dur="7s" repeatCount="indefinite"/></stop>
+    <stop offset=".5" stop-color="#8B5CF6"><animate attributeName="stop-color" values="#8B5CF6;#A855F7;#8B5CF6" dur="7s" repeatCount="indefinite"/></stop>
+    <stop offset="1" stop-color="#0EA5E9"><animate attributeName="stop-color" values="#0EA5E9;#2563EB;#0EA5E9" dur="7s" repeatCount="indefinite"/></stop>
   </linearGradient>
-  <linearGradient id="hair" x1="0" y1="0" x2="1600" y2="0">
-    <stop stop-color="#F59E0B"/><stop offset=".45" stop-color="#F97316"/><stop offset="1" stop-color="#FB7185"/>
+  <linearGradient id="wave" x1="0" y1="0" x2="1600" y2="0">
+    <stop stop-color="#FDBA74"/><stop offset=".5" stop-color="#C084FC"/><stop offset="1" stop-color="#38BDF8"/>
   </linearGradient>
   <filter id="glow" x="-30%" y="-100%" width="160%" height="300%">
     <feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
 </defs>
-<rect width="1600" height="300" fill="url(#ocean)"/>
-<circle cx="1500" cy="40" r="150" fill="#EC4899" opacity=".12"/>
-<circle cx="95" cy="30" r="120" fill="#22D3EE" opacity=".15"/>
-<path d="M0 20 C170 95 255 8 430 65 S720 70 895 28" fill="none" stroke="url(#hair)" stroke-width="11" opacity=".8" filter="url(#glow)"/>
-<path d="M0 44 C175 118 305 20 475 82 S735 92 930 44" fill="none" stroke="#FDBA74" stroke-width="4" opacity=".75"/>
-<path d="M1600 42 C1455 105 1370 20 1225 77 S1010 80 885 47" fill="none" stroke="url(#hair)" stroke-width="8" opacity=".65" filter="url(#glow)"/>
-<text x="800" y="122" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" fill="#FFFFFF">Rhea Mae Alum</text>
-<text x="800" y="180" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="600" fill="#F8FAFC">Building meaningful solutions with data</text>
-<path d="M0 245 C250 205 420 280 690 240 S1110 210 1600 260 V300 H0Z" fill="#0F4C81" opacity=".88"/>
-<path d="M0 266 C250 222 505 302 765 257 S1220 230 1600 277 V300 H0Z" fill="#071A2B" opacity=".92"/>
-<path d="M0 251 C250 210 420 280 690 241 S1110 212 1600 261" fill="none" stroke="url(#hair)" stroke-width="5" opacity=".9" filter="url(#glow)"/>
+<rect width="1600" height="300" fill="url(#gradient)"/>
+<circle cx="170" cy="55" r="140" fill="#FFFFFF" opacity=".07"/>
+<circle cx="1430" cy="40" r="175" fill="#FFFFFF" opacity=".06"/>
+<text x="800" y="120" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" fill="#FFFFFF">Rhea Mae Alum</text>
+<text x="800" y="178" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="600" fill="#FFFFFF">Building meaningful solutions with data</text>
+<path fill="#FFFFFF" fill-opacity=".24">
+  <animate attributeName="d" dur="6s" repeatCount="indefinite"
+    values="M0 238 C250 198 480 282 760 242 S1280 205 1600 250 V300 H0Z;
+            M0 252 C290 285 500 205 790 246 S1290 286 1600 232 V300 H0Z;
+            M0 238 C250 198 480 282 760 242 S1280 205 1600 250 V300 H0Z"/>
+</path>
+<path fill="#071A2B" fill-opacity=".88">
+  <animate attributeName="d" dur="8s" repeatCount="indefinite"
+    values="M0 260 C280 220 520 300 820 260 S1310 225 1600 268 V300 H0Z;
+            M0 270 C260 302 530 230 805 270 S1280 305 1600 250 V300 H0Z;
+            M0 260 C280 220 520 300 820 260 S1310 225 1600 268 V300 H0Z"/>
+</path>
+<path fill="none" stroke="url(#wave)" stroke-width="5" filter="url(#glow)">
+  <animate attributeName="d" dur="6s" repeatCount="indefinite"
+    values="M0 250 C260 208 490 291 780 250 S1280 215 1600 260;
+            M0 262 C280 292 510 218 790 258 S1290 293 1600 242;
+            M0 250 C260 208 490 291 780 250 S1280 215 1600 260"/>
+</path>
 </svg>
