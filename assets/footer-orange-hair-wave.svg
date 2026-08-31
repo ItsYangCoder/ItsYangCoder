@@ -1,18 +1,24 @@
 <svg width="1600" height="150" viewBox="0 0 1600 150" xmlns="http://www.w3.org/2000/svg">
 <defs>
-  <linearGradient id="ocean" x1="0" y1="0" x2="1600" y2="150">
-    <stop stop-color="#0891B2"/><stop offset=".5" stop-color="#2563EB"/><stop offset="1" stop-color="#6D28D9"/>
-  </linearGradient>
-  <linearGradient id="hair" x1="0" y1="0" x2="1600" y2="0">
-    <stop stop-color="#F59E0B"/><stop offset=".5" stop-color="#F97316"/><stop offset="1" stop-color="#FB7185"/>
+  <linearGradient id="gradient" x1="0" y1="0" x2="1600" y2="150">
+    <stop stop-color="#F97316"><animate attributeName="stop-color" values="#F97316;#FB7185;#F97316" dur="7s" repeatCount="indefinite"/></stop>
+    <stop offset=".5" stop-color="#8B5CF6"><animate attributeName="stop-color" values="#8B5CF6;#A855F7;#8B5CF6" dur="7s" repeatCount="indefinite"/></stop>
+    <stop offset="1" stop-color="#0EA5E9"><animate attributeName="stop-color" values="#0EA5E9;#2563EB;#0EA5E9" dur="7s" repeatCount="indefinite"/></stop>
   </linearGradient>
   <filter id="glow" x="-30%" y="-100%" width="160%" height="300%">
     <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
 </defs>
-<path d="M0 25 C280 95 480 0 760 52 S1250 88 1600 25 V150 H0Z" fill="url(#ocean)"/>
-<path d="M0 34 C280 102 490 12 765 60 S1245 96 1600 34" fill="none" stroke="url(#hair)" stroke-width="8" filter="url(#glow)"/>
-<path d="M0 55 C270 120 500 30 780 77 S1250 110 1600 55" fill="none" stroke="#FDBA74" stroke-width="3" opacity=".85"/>
-<circle cx="120" cy="100" r="3" fill="#FDBA74" filter="url(#glow)"/>
-<circle cx="1480" cy="105" r="3" fill="#FB7185" filter="url(#glow)"/>
+<path fill="url(#gradient)">
+  <animate attributeName="d" dur="7s" repeatCount="indefinite"
+    values="M0 30 C270 100 500 8 790 55 S1270 96 1600 28 V150 H0Z;
+            M0 50 C275 5 520 105 800 55 S1280 8 1600 52 V150 H0Z;
+            M0 30 C270 100 500 8 790 55 S1270 96 1600 28 V150 H0Z"/>
+</path>
+<path fill="none" stroke="#FFFFFF" stroke-opacity=".45" stroke-width="4" filter="url(#glow)">
+  <animate attributeName="d" dur="7s" repeatCount="indefinite"
+    values="M0 31 C270 101 500 9 790 56 S1270 97 1600 29;
+            M0 51 C275 6 520 106 800 56 S1280 9 1600 53;
+            M0 31 C270 101 500 9 790 56 S1270 97 1600 29"/>
+</path>
 </svg>
