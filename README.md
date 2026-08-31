@@ -108,7 +108,7 @@ I enjoy transforming raw and complex data into clean, reliable, and useful infor
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ItsYangCoder/ItsYangCoder/main/assets/skills-glow.svg" width="100%" alt="Rhea Mae Alum glowing skills constellation" />
+<img src="https://raw.githubusercontent.com/ItsYangCoder/ItsYangCoder/main/assets/skills-glow.svg?v=2" width="100%" alt="Rhea Mae Alum glowing skills constellation" />
 
 </div>
 
