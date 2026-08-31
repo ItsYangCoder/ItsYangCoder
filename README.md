@@ -106,11 +106,51 @@ I enjoy transforming raw and complex data into clean, reliable, and useful infor
 
 ## ⚡ Skills
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/ItsYangCoder/ItsYangCoder/main/assets/skills-glow.svg?v=2" width="100%" alt="Rhea Mae Alum glowing skills constellation" />
-
-</div>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔷 Data Engineering</h3>
+      <ul>
+        <li>ETL and data pipeline development</li>
+        <li>Medallion Architecture</li>
+        <li>Dimensional and star schema modeling</li>
+        <li>Delta Lake and Unity Catalog</li>
+        <li>Data cleaning and validation</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📊 Data Analytics</h3>
+      <ul>
+        <li>Exploratory data analysis</li>
+        <li>Data visualization</li>
+        <li>Dashboard development</li>
+        <li>Business insight generation</li>
+        <li>Data quality checks</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💻 Programming</h3>
+      <ul>
+        <li>Python</li>
+        <li>SQL</li>
+        <li>PySpark fundamentals</li>
+        <li>HTML and CSS</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🤝 Tools and Collaboration</h3>
+      <ul>
+        <li>Databricks</li>
+        <li>Git and GitHub</li>
+        <li>Tableau and Excel</li>
+        <li>Manual Quality Assurance</li>
+        <li>Team-based project development</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <div align="center">
 
