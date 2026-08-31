@@ -10,10 +10,10 @@
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/ItsYangCoder/ItsYangCoder/main/assets/rhea-anime-clean-banner.jpg" alt="Rhea Mae Alum anime data engineering banner" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=210&color=gradient&customColorList=6,11,12,14,18,20&section=header&text=Rhea%20Mae%20Alum&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Building%20meaningful%20solutions%20with%20data&descAlignY=60&animation=fadeIn" alt="Rhea Mae Alum header" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2600&pause=800&color=22D3EE&center=true&vCenter=true&repeat=true&width=850&height=60&lines=Rhea+Mae+Alum+%E2%9C%A8;Data+Engineer;Turning+raw+data+into+meaningful+insights" alt="Animated Rhea Mae Alum introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=900&color=22D3EE&center=true&vCenter=true&multiline=false&repeat=true&width=800&height=55&lines=Hi%2C+I'm+Rhea+Mae+Alum+%F0%9F%91%8B;Data+Engineer;Turning+raw+data+into+meaningful+insights" alt="Animated introduction" />
 </a>
 
 <br>
