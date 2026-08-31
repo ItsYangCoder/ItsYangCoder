@@ -54,43 +54,53 @@ I enjoy transforming raw and complex data into clean, reliable, and useful infor
 
 </div>
 
-## 🛠️ Technologies
+## ✨ Technologies & Tools ✨
 
 <div align="center">
 
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=18&duration=1800&pause=500&color=22D3EE&center=true&vCenter=true&repeat=true&width=650&height=45&lines=%E2%9C%A6+MY+TECH+CONSTELLATION+%E2%9C%A6;%E2%9C%A8+BUILDING+THE+FUTURE+WITH+DATA+%E2%9C%A8" alt="Animated technology constellation" />
+
+<br>
+
 <a href="https://www.python.org/">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&labelColor=0D1117&logo=python&logoColor=FFD43B" alt="Python" />
 </a>
 <a href="https://en.wikipedia.org/wiki/SQL">
-  <img src="https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
+  <img src="https://img.shields.io/badge/SQL-0891B2?style=for-the-badge&labelColor=0D1117&logo=postgresql&logoColor=white" alt="SQL" />
 </a>
 <a href="https://www.databricks.com/">
-  <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks" />
+  <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&labelColor=0D1117&logo=databricks&logoColor=white" alt="Databricks" />
 </a>
 <a href="https://spark.apache.org/">
-  <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Apache Spark" />
+  <img src="https://img.shields.io/badge/Apache_Spark-F97316?style=for-the-badge&labelColor=0D1117&logo=apachespark&logoColor=white" alt="Apache Spark" />
 </a>
 <a href="https://delta.io/">
-  <img src="https://img.shields.io/badge/Delta_Lake-00ADD8?style=for-the-badge&logo=delta&logoColor=white" alt="Delta Lake" />
+  <img src="https://img.shields.io/badge/Delta_Lake-06B6D4?style=for-the-badge&labelColor=0D1117&logo=delta&logoColor=white" alt="Delta Lake" />
 </a>
 <a href="https://git-scm.com/">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&labelColor=0D1117&logo=git&logoColor=white" alt="Git" />
 </a>
 <a href="https://github.com/">
-  <img src="https://img.shields.io/badge/GitHub-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub-8B5CF6?style=for-the-badge&labelColor=0D1117&logo=github&logoColor=white" alt="GitHub" />
 </a>
 <a href="https://www.tableau.com/">
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau" />
+  <img src="https://img.shields.io/badge/Tableau-F59E0B?style=for-the-badge&labelColor=0D1117&logo=tableau&logoColor=white" alt="Tableau" />
 </a>
 <a href="https://www.microsoft.com/microsoft-365/excel">
-  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Microsoft Excel" />
+  <img src="https://img.shields.io/badge/Excel-10B981?style=for-the-badge&labelColor=0D1117&logo=microsoftexcel&logoColor=white" alt="Microsoft Excel" />
 </a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/HTML5-F97316?style=for-the-badge&labelColor=0D1117&logo=html5&logoColor=white" alt="HTML5" />
 </a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/CSS3-3B82F6?style=for-the-badge&labelColor=0D1117&logo=css3&logoColor=white" alt="CSS3" />
 </a>
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=6,11,14,18,20" width="70%" alt="Glowing technology divider" />
+
+<p>✦ &nbsp; ✧ &nbsp; ✦ &nbsp; ✧ &nbsp; ✦</p>
 
 </div>
 
