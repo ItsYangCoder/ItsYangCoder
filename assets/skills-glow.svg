@@ -1,0 +1,86 @@
+<svg width="1200" height="650" viewBox="0 0 1200 650" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="650" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#07111F"/>
+    <stop offset="0.5" stop-color="#0D1117"/>
+    <stop offset="1" stop-color="#150A24"/>
+  </linearGradient>
+  <linearGradient id="neon" x1="80" y1="40" x2="1120" y2="610" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#22D3EE"/>
+    <stop offset="0.35" stop-color="#3B82F6"/>
+    <stop offset="0.68" stop-color="#A855F7"/>
+    <stop offset="1" stop-color="#EC4899"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="7" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="3" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<rect x="12" y="12" width="1176" height="626" rx="28" fill="url(#bg)" stroke="url(#neon)" stroke-width="2"/>
+<rect x="18" y="18" width="1164" height="614" rx="24" stroke="url(#neon)" stroke-opacity=".22" stroke-width="8" filter="url(#glow)"/>
+
+<g fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif">
+  <text x="600" y="70" text-anchor="middle" font-size="28" font-weight="700" letter-spacing="4" fill="#22D3EE" filter="url(#softGlow)">✦ SKILLS CONSTELLATION ✦</text>
+  <text x="600" y="101" text-anchor="middle" font-size="15" letter-spacing="2" fill="#94A3B8">BUILDING RELIABLE DATA SOLUTIONS</text>
+
+  <g>
+    <rect x="55" y="135" width="530" height="215" rx="20" fill="#0B1625" stroke="#22D3EE" stroke-width="2"/>
+    <rect x="55" y="135" width="530" height="215" rx="20" stroke="#22D3EE" stroke-opacity=".32" stroke-width="9" filter="url(#glow)"/>
+    <circle cx="98" cy="179" r="20" fill="#082F49" stroke="#22D3EE"/>
+    <text x="98" y="186" text-anchor="middle" font-size="22">◆</text>
+    <text x="132" y="188" font-size="25" font-weight="700" fill="#67E8F9">Data Engineering</text>
+    <text x="90" y="232" font-size="18">✦ ETL and data pipeline development</text>
+    <text x="90" y="264" font-size="18">✦ Medallion Architecture</text>
+    <text x="90" y="296" font-size="18">✦ Dimensional and star schema modeling</text>
+    <text x="90" y="328" font-size="18">✦ Delta Lake · Unity Catalog · Validation</text>
+  </g>
+
+  <g>
+    <rect x="615" y="135" width="530" height="215" rx="20" fill="#111026" stroke="#A855F7" stroke-width="2"/>
+    <rect x="615" y="135" width="530" height="215" rx="20" stroke="#A855F7" stroke-opacity=".32" stroke-width="9" filter="url(#glow)"/>
+    <circle cx="658" cy="179" r="20" fill="#2E1065" stroke="#A855F7"/>
+    <text x="658" y="186" text-anchor="middle" font-size="21">▥</text>
+    <text x="692" y="188" font-size="25" font-weight="700" fill="#C084FC">Data Analytics</text>
+    <text x="650" y="232" font-size="18">✦ Exploratory data analysis</text>
+    <text x="650" y="264" font-size="18">✦ Data visualization and dashboards</text>
+    <text x="650" y="296" font-size="18">✦ Business insight generation</text>
+    <text x="650" y="328" font-size="18">✦ Data quality checks</text>
+  </g>
+
+  <g>
+    <rect x="55" y="380" width="530" height="200" rx="20" fill="#081A23" stroke="#3B82F6" stroke-width="2"/>
+    <rect x="55" y="380" width="530" height="200" rx="20" stroke="#3B82F6" stroke-opacity=".3" stroke-width="9" filter="url(#glow)"/>
+    <circle cx="98" cy="424" r="20" fill="#172554" stroke="#3B82F6"/>
+    <text x="98" y="431" text-anchor="middle" font-size="21">⌘</text>
+    <text x="132" y="433" font-size="25" font-weight="700" fill="#60A5FA">Programming</text>
+    <text x="90" y="477" font-size="18">✦ Python and SQL</text>
+    <text x="90" y="509" font-size="18">✦ PySpark fundamentals</text>
+    <text x="90" y="541" font-size="18">✦ HTML and CSS</text>
+  </g>
+
+  <g>
+    <rect x="615" y="380" width="530" height="200" rx="20" fill="#190D22" stroke="#EC4899" stroke-width="2"/>
+    <rect x="615" y="380" width="530" height="200" rx="20" stroke="#EC4899" stroke-opacity=".3" stroke-width="9" filter="url(#glow)"/>
+    <circle cx="658" cy="424" r="20" fill="#500724" stroke="#EC4899"/>
+    <text x="658" y="431" text-anchor="middle" font-size="20">✦</text>
+    <text x="692" y="433" font-size="25" font-weight="700" fill="#F472B6">Tools &amp; Collaboration</text>
+    <text x="650" y="477" font-size="18">✦ Databricks · Git · GitHub</text>
+    <text x="650" y="509" font-size="18">✦ Tableau and Excel</text>
+    <text x="650" y="541" font-size="18">✦ Manual QA and team collaboration</text>
+  </g>
+</g>
+
+<g fill="#FFFFFF" filter="url(#softGlow)">
+  <circle cx="65" cy="65" r="3"><animate attributeName="opacity" values=".2;1;.2" dur="2s" repeatCount="indefinite"/></circle>
+  <circle cx="1130" cy="85" r="3"><animate attributeName="opacity" values="1;.2;1" dur="2.7s" repeatCount="indefinite"/></circle>
+  <circle cx="1110" cy="605" r="2.5"><animate attributeName="opacity" values=".2;1;.2" dur="1.8s" repeatCount="indefinite"/></circle>
+  <circle cx="92" cy="602" r="2.5"><animate attributeName="opacity" values="1;.2;1" dur="2.3s" repeatCount="indefinite"/></circle>
+  <text x="1085" y="54" font-size="20">✦<animate attributeName="opacity" values=".25;1;.25" dur="2s" repeatCount="indefinite"/></text>
+  <text x="105" y="105" font-size="15">✧<animate attributeName="opacity" values="1;.2;1" dur="2.5s" repeatCount="indefinite"/></text>
+</g>
+</svg>
