@@ -1,0 +1,24 @@
+<svg width="1600" height="300" viewBox="0 0 1600 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="ocean" x1="0" y1="0" x2="1600" y2="300">
+    <stop stop-color="#0891B2"/><stop offset=".48" stop-color="#2563EB"/><stop offset="1" stop-color="#6D28D9"/>
+  </linearGradient>
+  <linearGradient id="hair" x1="0" y1="0" x2="1600" y2="0">
+    <stop stop-color="#F59E0B"/><stop offset=".45" stop-color="#F97316"/><stop offset="1" stop-color="#FB7185"/>
+  </linearGradient>
+  <filter id="glow" x="-30%" y="-100%" width="160%" height="300%">
+    <feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="1600" height="300" fill="url(#ocean)"/>
+<circle cx="1500" cy="40" r="150" fill="#EC4899" opacity=".12"/>
+<circle cx="95" cy="30" r="120" fill="#22D3EE" opacity=".15"/>
+<path d="M0 20 C170 95 255 8 430 65 S720 70 895 28" fill="none" stroke="url(#hair)" stroke-width="11" opacity=".8" filter="url(#glow)"/>
+<path d="M0 44 C175 118 305 20 475 82 S735 92 930 44" fill="none" stroke="#FDBA74" stroke-width="4" opacity=".75"/>
+<path d="M1600 42 C1455 105 1370 20 1225 77 S1010 80 885 47" fill="none" stroke="url(#hair)" stroke-width="8" opacity=".65" filter="url(#glow)"/>
+<text x="800" y="122" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" fill="#FFFFFF">Rhea Mae Alum</text>
+<text x="800" y="180" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="600" fill="#F8FAFC">Building meaningful solutions with data</text>
+<path d="M0 245 C250 205 420 280 690 240 S1110 210 1600 260 V300 H0Z" fill="#0F4C81" opacity=".88"/>
+<path d="M0 266 C250 222 505 302 765 257 S1220 230 1600 277 V300 H0Z" fill="#071A2B" opacity=".92"/>
+<path d="M0 251 C250 210 420 280 690 241 S1110 212 1600 261" fill="none" stroke="url(#hair)" stroke-width="5" opacity=".9" filter="url(#glow)"/>
+</svg>
