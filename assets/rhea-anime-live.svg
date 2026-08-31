@@ -1,0 +1,51 @@
+<svg width="1600" height="640" viewBox="0 0 1600 640" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <clipPath id="frame"><rect width="1600" height="640" rx="24"/></clipPath>
+  <linearGradient id="edge" x1="0" y1="0" x2="1600" y2="640">
+    <stop stop-color="#22D3EE"/><stop offset=".5" stop-color="#7C3AED"/><stop offset="1" stop-color="#EC4899"/>
+  </linearGradient>
+  <linearGradient id="pill" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#020617" stop-opacity=".92"/><stop offset="1" stop-color="#172554" stop-opacity=".76"/>
+  </linearGradient>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<g clip-path="url(#frame)">
+  <rect width="1600" height="640" fill="#020617"/>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="6s" repeatCount="indefinite"/>
+    <image href="https://raw.githubusercontent.com/ItsYangCoder/ItsYangCoder/main/assets/rhea-anime-data-banner.jpg" x="-8" y="-4" width="1616" height="648" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+
+  <g fill="#22D3EE" filter="url(#glow)">
+    <circle cx="75" cy="82" r="3"><animate attributeName="opacity" values=".15;1;.15" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="310" cy="105" r="2"><animate attributeName="opacity" values="1;.1;1" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="690" cy="76" r="3"><animate attributeName="opacity" values=".1;1;.1" dur="1.7s" repeatCount="indefinite"/></circle>
+    <circle cx="1280" cy="92" r="2.5"><animate attributeName="opacity" values="1;.1;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1510" cy="170" r="3"><animate attributeName="opacity" values=".1;1;.1" dur="1.9s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g fill="#C084FC" filter="url(#glow)">
+    <circle cx="140" cy="530" r="3"><animate attributeName="opacity" values=".1;1;.1" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="540" cy="570" r="2.5"><animate attributeName="opacity" values="1;.1;1" dur="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1120" cy="550" r="3"><animate attributeName="opacity" values=".1;1;.1" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="1460" cy="500" r="2"><animate attributeName="opacity" values="1;.1;1" dur="2.2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <path d="M-30 545 C250 465 480 620 760 525 S1250 460 1630 535" fill="none" stroke="#22D3EE" stroke-width="3" opacity=".55" filter="url(#glow)">
+    <animate attributeName="stroke-dasharray" values="2 22;22 2;2 22" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <path d="M-40 580 C300 500 520 635 820 550 S1300 500 1640 565" fill="none" stroke="#A855F7" stroke-width="3" opacity=".55" filter="url(#glow)">
+    <animate attributeName="stroke-dasharray" values="18 3;3 18;18 3" dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <rect x="130" y="475" width="760" height="72" rx="36" fill="url(#pill)" stroke="url(#edge)" stroke-width="2"/>
+  <text x="510" y="521" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="1.5" fill="#FFFFFF" filter="url(#glow)">Turning raw data into meaningful insights</text>
+</g>
+
+<rect x="3" y="3" width="1594" height="634" rx="22" fill="none" stroke="url(#edge)" stroke-width="6">
+  <animate attributeName="stroke-opacity" values=".45;1;.45" dur="3s" repeatCount="indefinite"/>
+</rect>
+</svg>
