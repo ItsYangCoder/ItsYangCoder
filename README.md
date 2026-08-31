@@ -205,25 +205,9 @@ A data-quality-focused pipeline that cleans, validates, deduplicates, and integr
 
 </div>
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<a href="https://github.com/ItsYangCoder">
-  <img src="https://github-profile-trophy.vercel.app/?username=ItsYangCoder&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=4" alt="GitHub profile trophies" />
-</a>
-
-</div>
-
 ## 🐍 Contribution Journey
 
 <div align="center">
-
-<!--
-  TODO: The animated snake requires a GitHub Actions workflow.
-  Expected generated file:
-  output/github-contribution-grid-snake-dark.svg
--->
 
 <a href="https://github.com/ItsYangCoder">
   <img src="https://raw.githubusercontent.com/ItsYangCoder/ItsYangCoder/output/github-contribution-grid-snake-dark.svg" alt="Animated contribution snake" />
