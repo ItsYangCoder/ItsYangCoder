@@ -10,7 +10,7 @@
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/ItsYangCoder/ItsYangCoder/main/assets/header-orange-hair-wave.svg?v=1" alt="Rhea Mae Alum ocean and orange hair wave header" />
+<img width="100%" src="https://raw.githubusercontent.com/ItsYangCoder/ItsYangCoder/main/assets/header-orange-hair-wave.svg?v=2" alt="Rhea Mae Alum ocean and orange hair wave header" />
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=900&color=22D3EE&center=true&vCenter=true&multiline=false&repeat=true&width=800&height=55&lines=Hi%2C+I'm+Rhea+Mae+Alum+%F0%9F%91%8B;Data+Engineer;Turning+raw+data+into+meaningful+insights" alt="Animated introduction" />
@@ -242,6 +242,6 @@ A data-quality-focused pipeline that cleans, validates, deduplicates, and integr
   <img src="https://img.shields.io/badge/Let's_Connect-22D3EE?style=for-the-badge&logo=linkedin&logoColor=0D1117" alt="Connect with Rhea on LinkedIn" />
 </a>
 
-<img width="100%" src="https://raw.githubusercontent.com/ItsYangCoder/ItsYangCoder/main/assets/footer-orange-hair-wave.svg?v=1" alt="Ocean and orange hair wave footer" />
+<img width="100%" src="https://raw.githubusercontent.com/ItsYangCoder/ItsYangCoder/main/assets/footer-orange-hair-wave.svg?v=2" alt="Ocean and orange hair wave footer" />
 
 </div>
