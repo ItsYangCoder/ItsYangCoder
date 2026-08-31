@@ -111,7 +111,7 @@ I enjoy transforming raw and complex data into clean, reliable, and useful infor
 
 ### Think in queries. Earn points. Claim the leaderboard.
 
-Test your SQL knowledge through five interactive challenges. Every correct answer earns **100 points**, and every completed score is saved to the live leaderboard.
+Test your SQL knowledge through **10 interactive challenges**: five fundamentals followed by five hard ANSI SQL coding tests. Every correct answer earns **100 points**, and every completed score is saved to the live leaderboard.
 
 <a href="https://rhea-sql-quest.rheaalum0126.chatgpt.site">
   <img src="https://img.shields.io/badge/PLAY_SQL_QUEST-22D3EE?style=for-the-badge&logo=postgresql&logoColor=0D1117" alt="Play Rhea SQL Quest" />
@@ -125,7 +125,7 @@ Test your SQL knowledge through five interactive challenges. Every correct answe
 | Challenge | Points |
 |:---|:---:|
 | Each correct SQL answer | **+100** |
-| Five-question perfect run | **500 total** |
+| Ten-question perfect run | **1,000 total** |
 | Completed quest | **Saved to leaderboard** |
 
 </div>
@@ -154,13 +154,13 @@ Everyone who finishes SQL Quest appears in the game’s live player hall with:
 
 - Their leaderboard position
 - Total points earned
-- Correct answers out of five
+- Correct answers out of ten
 - A visual points-progress indicator
 - Automatic eligibility for the Top 3 podium
 
 <div align="center">
 
-**0 pts** ▱▱▱▱▱ **500 pts**
+**0 pts** ▱▱▱▱▱▱▱▱▱▱ **1,000 pts**
 
 <a href="https://rhea-sql-quest.rheaalum0126.chatgpt.site">
   <img src="https://img.shields.io/badge/PLAY_AND_ADD_YOUR_SCORE-2563EB?style=for-the-badge&logo=databricks&logoColor=white" alt="Play SQL Quest and add your score" />
