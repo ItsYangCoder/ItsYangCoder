@@ -1,0 +1,18 @@
+<svg width="1600" height="150" viewBox="0 0 1600 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="ocean" x1="0" y1="0" x2="1600" y2="150">
+    <stop stop-color="#0891B2"/><stop offset=".5" stop-color="#2563EB"/><stop offset="1" stop-color="#6D28D9"/>
+  </linearGradient>
+  <linearGradient id="hair" x1="0" y1="0" x2="1600" y2="0">
+    <stop stop-color="#F59E0B"/><stop offset=".5" stop-color="#F97316"/><stop offset="1" stop-color="#FB7185"/>
+  </linearGradient>
+  <filter id="glow" x="-30%" y="-100%" width="160%" height="300%">
+    <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<path d="M0 25 C280 95 480 0 760 52 S1250 88 1600 25 V150 H0Z" fill="url(#ocean)"/>
+<path d="M0 34 C280 102 490 12 765 60 S1245 96 1600 34" fill="none" stroke="url(#hair)" stroke-width="8" filter="url(#glow)"/>
+<path d="M0 55 C270 120 500 30 780 77 S1250 110 1600 55" fill="none" stroke="#FDBA74" stroke-width="3" opacity=".85"/>
+<circle cx="120" cy="100" r="3" fill="#FDBA74" filter="url(#glow)"/>
+<circle cx="1480" cy="105" r="3" fill="#FB7185" filter="url(#glow)"/>
+</svg>
