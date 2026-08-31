@@ -134,12 +134,13 @@ Test your SQL knowledge through five interactive challenges. Every correct answe
 
 <div align="center">
 
-The podium is ready for the first players who complete the quest.
+The podium below automatically displays the highest scores saved by SQL Quest.
 
-| 🥈 Rank 2 | 🥇 Rank 1 | 🥉 Rank 3 |
-|:---:|:---:|:---:|
-| Future Champion | Future Champion | Future Champion |
-| **0 pts** | **0 pts** | **0 pts** |
+<a href="https://rhea-sql-quest.rheaalum0126.chatgpt.site">
+  <img width="100%" src="https://rhea-sql-quest.rheaalum0126.chatgpt.site/api/leaderboard-card" alt="Live Top 3 SQL Champions leaderboard" />
+</a>
+
+<br>
 
 <a href="https://rhea-sql-quest.rheaalum0126.chatgpt.site">
   <img src="https://img.shields.io/badge/SEE_CURRENT_TOP_3-EC4899?style=for-the-badge&logo=starship&logoColor=white" alt="See current Top 3 SQL champions" />
