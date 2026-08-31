@@ -10,7 +10,13 @@
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/ItsYangCoder/ItsYangCoder/main/assets/rhea-anime-live.svg?v=1" alt="Animated Rhea Mae Alum data engineering anime banner" />
+<img width="100%" src="https://raw.githubusercontent.com/ItsYangCoder/ItsYangCoder/main/assets/rhea-anime-clean-banner.jpg" alt="Rhea Mae Alum anime data engineering banner" />
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2600&pause=800&color=22D3EE&center=true&vCenter=true&repeat=true&width=850&height=60&lines=Rhea+Mae+Alum+%E2%9C%A8;Data+Engineer;Turning+raw+data+into+meaningful+insights" alt="Animated Rhea Mae Alum introduction" />
+</a>
+
+<br>
 
 
 <a href="https://www.linkedin.com/in/rhea-alum/">
