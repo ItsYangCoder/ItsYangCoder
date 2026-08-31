@@ -1,0 +1,25 @@
+<svg width="1600" height="600" viewBox="0 0 1600 600" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <clipPath id="clip"><rect width="1600" height="600" rx="22"/></clipPath>
+  <linearGradient id="shade" x1="0" y1="0" x2="1050" y2="0">
+    <stop stop-color="#020617" stop-opacity=".88"/>
+    <stop offset=".62" stop-color="#020617" stop-opacity=".42"/>
+    <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1600" y2="0">
+    <stop stop-color="#22D3EE"/><stop offset=".5" stop-color="#7C3AED"/><stop offset="1" stop-color="#EC4899"/>
+  </linearGradient>
+  <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<g clip-path="url(#clip)">
+  <image href="https://raw.githubusercontent.com/ItsYangCoder/ItsYangCoder/main/assets/rhea-anime-clean-banner.jpg" width="1600" height="600" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="1100" height="600" fill="url(#shade)"/>
+  <text x="115" y="250" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="800" fill="#FFFFFF" filter="url(#soft)">Rhea Mae Alum</text>
+  <text x="120" y="315" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="600" fill="#E2E8F0">Building meaningful solutions with data</text>
+  <rect x="120" y="350" width="530" height="4" rx="2" fill="url(#line)" filter="url(#soft)"/>
+</g>
+<rect x="3" y="3" width="1594" height="594" rx="20" fill="none" stroke="url(#line)" stroke-width="6"/>
+</svg>
