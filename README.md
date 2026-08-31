@@ -105,91 +105,67 @@ I enjoy transforming raw and complex data into clean, reliable, and useful infor
 
 </div>
 
-## ⚡ Skills
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🔷 Data Engineering</h3>
-      <ul>
-        <li>ETL and data pipeline development</li>
-        <li>Medallion Architecture</li>
-        <li>Dimensional and star schema modeling</li>
-        <li>Delta Lake and Unity Catalog</li>
-        <li>Data cleaning and validation</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📊 Data Analytics</h3>
-      <ul>
-        <li>Exploratory data analysis</li>
-        <li>Data visualization</li>
-        <li>Dashboard development</li>
-        <li>Business insight generation</li>
-        <li>Data quality checks</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>💻 Programming</h3>
-      <ul>
-        <li>Python</li>
-        <li>SQL</li>
-        <li>PySpark fundamentals</li>
-        <li>HTML and CSS</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🤝 Tools and Collaboration</h3>
-      <ul>
-        <li>Databricks</li>
-        <li>Git and GitHub</li>
-        <li>Tableau and Excel</li>
-        <li>Manual Quality Assurance</li>
-        <li>Team-based project development</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+## 🎮 SQL Quest
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient&customColorList=12,14,18,20&section=header" width="85%" alt="Gradient divider" />
+### Think in queries. Earn points. Claim the leaderboard.
+
+Test your SQL knowledge through five interactive challenges. Every correct answer earns **100 points**, and every completed score is saved to the live leaderboard.
+
+<a href="https://rhea-sql-quest.rheaalum0126.chatgpt.site">
+  <img src="https://img.shields.io/badge/PLAY_SQL_QUEST-22D3EE?style=for-the-badge&logo=postgresql&logoColor=0D1117" alt="Play Rhea SQL Quest" />
+</a>
+<a href="https://rhea-sql-quest.rheaalum0126.chatgpt.site">
+  <img src="https://img.shields.io/badge/LIVE_LEADERBOARD-A855F7?style=for-the-badge&logo=trophy&logoColor=white" alt="View the live leaderboard" />
+</a>
+
+<br><br>
+
+| Challenge | Points |
+|:---|:---:|
+| Each correct SQL answer | **+100** |
+| Five-question perfect run | **500 total** |
+| Completed quest | **Saved to leaderboard** |
 
 </div>
 
-## 🚀 Featured Projects
+## 🏆 Top 3 SQL Champions
 
-### 🎵 Chinook Dimensional Model
+<div align="center">
 
-A dimensional data warehouse built in Databricks using the Chinook dataset. It follows a Raw, Clean, and Mart architecture and includes a star schema, Delta tables, data-quality checks, and analytical SQL queries.
+The podium is ready for the first players who complete the quest.
 
-**Technologies:** Databricks SQL · Delta Lake · Unity Catalog · GitHub · Tableau
+| 🥈 Rank 2 | 🥇 Rank 1 | 🥉 Rank 3 |
+|:---:|:---:|:---:|
+| Future Champion | Future Champion | Future Champion |
+| **0 pts** | **0 pts** | **0 pts** |
 
-[![View Repository](https://img.shields.io/badge/View_Repository-6E40C9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ItsYangCoder/d3-chinook-dimensional-model)
+<a href="https://rhea-sql-quest.rheaalum0126.chatgpt.site">
+  <img src="https://img.shields.io/badge/SEE_CURRENT_TOP_3-EC4899?style=for-the-badge&logo=starship&logoColor=white" alt="See current Top 3 SQL champions" />
+</a>
 
----
+</div>
 
-### 🛒 Retail Loyalty Data Pipeline
+## 👾 Player Hall & Points
 
-An incremental data pipeline that processes retail transactions and loyalty-member data through Bronze, Silver, and Gold layers. It includes data cleaning, integration, validation, KPI calculations, and Delta Lake `MERGE` operations.
+Everyone who finishes SQL Quest appears in the game’s live player hall with:
 
-**Technologies:** Databricks · SQL · Delta Lake · Medallion Architecture · Data Validation
+- Their leaderboard position
+- Total points earned
+- Correct answers out of five
+- A visual points-progress indicator
+- Automatic eligibility for the Top 3 podium
 
-<!-- TODO: Replace the placeholder URL below with the exact Retail Loyalty repository URL. -->
-[![View Repository](https://img.shields.io/badge/View_Repository-0891B2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ItsYangCoder/REPLACE-WITH-RETAIL-LOYALTY-REPOSITORY)
+<div align="center">
 
----
+**0 pts** ▱▱▱▱▱ **500 pts**
 
-### 🏪 Sari-Sari Store Data Pipeline
+<a href="https://rhea-sql-quest.rheaalum0126.chatgpt.site">
+  <img src="https://img.shields.io/badge/PLAY_AND_ADD_YOUR_SCORE-2563EB?style=for-the-badge&logo=databricks&logoColor=white" alt="Play SQL Quest and add your score" />
+</a>
 
-A data-quality-focused pipeline that cleans, validates, deduplicates, and integrates sari-sari store transaction records. The project separates valid and unresolved data while preserving reliable records for analysis.
-
-**Technologies:** Databricks · SQL · Data Cleaning · Deduplication · Data Quality
-
-<!-- TODO: Replace the placeholder URL below with the exact Sari-Sari Store repository URL. -->
-[![View Repository](https://img.shields.io/badge/View_Repository-DB2777?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ItsYangCoder/REPLACE-WITH-SARI-SARI-REPOSITORY)
+</div>
 
 <div align="center">
 
