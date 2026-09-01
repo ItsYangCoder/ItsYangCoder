@@ -1,0 +1,78 @@
+name: Daily Data Engineering Practice
+
+on:
+  schedule:
+    # 9:00 PM Philippines time (13:00 UTC)
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-data-engineering-practice
+  cancel-in-progress: false
+
+jobs:
+  create-daily-practice:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Create today's practice log
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mkdir -p daily-logs
+          date_utc=$(date -u +"%Y-%m-%d")
+          day_number=$(date -u +"%j")
+          prompt_index=$((10#$day_number % 7))
+
+          prompts=(
+            "Write an ANSI SQL query using GROUP BY and HAVING."
+            "Explain the difference between a fact table and a dimension table."
+            "Practice one SQL JOIN and describe the expected result."
+            "Explain one Databricks Delta Lake concept in two or three sentences."
+            "Write a data-quality check for NULL or duplicate values."
+            "Describe one ETL or ELT pipeline step and its purpose."
+            "Review one portfolio project and note one improvement."
+          )
+
+          log_file="daily-logs/$date_utc"
+
+          if [ ! -f "$log_file.md" ]; then
+            cat > "$log_file.md" <<EOF
+          # Daily Data Engineering Practice — ${date_utc}
+
+          **Practice prompt:** ${prompts[$prompt_index]}
+
+          ## My answer
+
+          <!-- Add your actual answer or progress here. -->
+
+          ## Topics
+
+          - SQL
+          - Databricks
+          - Data quality
+          EOF
+          fi
+
+      - name: Commit today's log
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "Rhea Mae Alum"
+          git config user.email "317650876+ItsYangCoder@users.noreply.github.com"
+          git add daily-logs/
+
+          if git diff --cached --quiet; then
+            echo "Today's log already exists."
+          else
+            git commit -m "docs: add daily data engineering practice log"
+            git push
+          fi
